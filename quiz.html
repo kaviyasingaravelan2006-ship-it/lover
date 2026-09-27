@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Little Story 💕</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div id="hearts"></div>
+
+<div class="quiz-card">
+
+    <div class="emoji">💭❤️</div>
+
+    <h1>Do You Remember?</h1>
+
+    <p>
+        Every little moment with you has become
+        a beautiful memory in my heart.
+    </p>
+
+    <p class="romantic-line">
+        So let's see how well you remember
+        the beginning of our little story... 🥰
+    </p>
+
+    <h2 class="question-title">
+        What made our story special?
+    </h2>
+
+    <div class="options">
+
+        <button onclick="wrongAnswer()">
+            🌹 The First Meeting
+        </button>
+
+        <button onclick="correctAnswer()">
+            💬 Our First Conversation
+        </button>
+
+        <button onclick="wrongAnswer()">
+            📞 Our First Call
+        </button>
+
+    </div>
+
+    <p id="answer"></p>
+
+    <a href="/memories" class="next-btn">
+        Continue Our Story ❤️
+    </a>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

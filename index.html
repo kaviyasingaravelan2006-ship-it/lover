@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Love ❤️</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div id="hearts"></div>
+
+<div class="welcome-card">
+
+    <div class="lock">💌</div>
+
+    <p class="top-line">A little message from my heart...</p>
+
+    <h1>Hey My Love ❤️</h1>
+
+    <p>
+        In a world full of people,
+        somehow my heart found you. 💕
+    </p>
+
+    <p>
+        You are not just someone I love...
+        you are someone I never want to lose.
+    </p>
+
+    <p class="romantic-line">
+        You became my favorite notification,
+        my favorite conversation,
+        and my favorite person. 🥹❤️
+    </p>
+
+    <p class="question">
+        Are you ready to see what my heart wants to tell you?
+    </p>
+
+    <button class="main-btn" onclick="startStory()">
+        Come Into My Heart ❤️
+    </button>
+
+    <p id="welcomeMessage"></p>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

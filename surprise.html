@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Final Surprise ❤️</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div id="hearts"></div>
+
+<div class="surprise-page">
+
+    <div id="gift"
+         class="gift-box"
+         onclick="openGift()">
+
+        🎁
+
+    </div>
+
+    <h1>There Is Something Inside...</h1>
+
+    <p>
+        You have reached the final part of my little surprise.
+    </p>
+
+    <p class="romantic-line">
+        Click the gift and read what my heart
+        has been wanting to tell you. ❤️
+    </p>
+
+
+    <button class="main-btn" onclick="openGift()">
+        Open My Heart 💕
+    </button>
+
+
+    <div id="finalMessage" class="final-message">
+
+        <div class="big-heart">
+            ❤️
+        </div>
+
+        <h1>My Love...</h1>
+
+
+        <div class="love-letter">
+
+            <p>
+                If I could choose one person to keep beside me
+                through all the beautiful moments of life,
+                I would choose you.
+            </p>
+
+            <p>
+                You are the person I want to laugh with,
+                talk with, annoy sometimes 😜,
+                and make countless memories with.
+            </p>
+
+            <p>
+                I don't need a perfect love story.
+                I just want <b>our</b> story —
+                with its silly moments,
+                little fights,
+                endless conversations,
+                laughter and beautiful memories. ❤️
+            </p>
+
+            <p>
+                Whenever life feels difficult,
+                I hope you remember that there is someone
+                who cares about you,
+                believes in you,
+                and wants to see you happy.
+            </p>
+
+            <p>
+                You are my favorite notification.
+                My favorite person to talk to.
+                My favorite reason to smile.
+                And one of the most beautiful parts of my life. 🥹💕
+            </p>
+
+            <p>
+                I don't know what tomorrow looks like,
+                but I know one thing...
+            </p>
+
+            <h2>
+                I want more memories with you. ❤️
+            </h2>
+
+            <h1>I LOVE YOU ❤️</h1>
+
+            <p class="forever">
+                More than yesterday,
+                less than tomorrow. 💕
+            </p>
+
+            <p>
+                Today ❤️
+                Tomorrow ❤️
+                Always ❤️
+            </p>
+
+        </div>
+
+
+        <div class="final-quote">
+
+            <p>
+                "If I had to live this life again,
+                I would still want to find you." ❤️
+            </p>
+
+        </div>
+
+
+        <button class="main-btn"
+                onclick="finalLove()">
+
+            One Last Thing ❤️
+
+        </button>
+
+        <p id="lastMessage"></p>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
